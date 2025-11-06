@@ -2,6 +2,7 @@ import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
 import ProgramsSection from '@/components/ProgramsSection';
 import AdvantagesSection from '@/components/AdvantagesSection';
+import TestimonialsSection from '@/components/TestimonialsSection';
 import AdmissionCalculator from '@/components/AdmissionCalculator';
 import AdmissionSection from '@/components/AdmissionSection';
 import FAQSection from '@/components/FAQSection';
@@ -20,6 +21,7 @@ export default function Index() {
       <HeroSection scrollToSection={scrollToSection} />
       <ProgramsSection />
       <AdvantagesSection />
+      <TestimonialsSection />
       <AdmissionCalculator />
       <AdmissionSection />
       <FAQSection />
